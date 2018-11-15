@@ -10,6 +10,7 @@ use Ivory\Tests\Serializer\Benchmark\Result\BenchmarkResultInterface;
 use Ivory\Tests\Serializer\Benchmark\Runner\BenchmarkRunner;
 use Ivory\Tests\Serializer\Benchmark\SerializardClosureBenchmark;
 use Ivory\Tests\Serializer\Benchmark\SerializardReflectionBenchmark;
+use Ivory\Tests\Serializer\Benchmark\SymfonyCustomNormalizerBenchmark;
 use Ivory\Tests\Serializer\Benchmark\SymfonyGetSetNormalizerBenchmark;
 use Ivory\Tests\Serializer\Benchmark\SymfonyObjectNormalizerBenchmark;
 use Symfony\Component\Console\Command\Command;
@@ -71,6 +72,7 @@ class BenchmarkCommand extends Command
         } else {
             $benchmarks = [
                 new IvoryBenchmark(),
+                new SymfonyCustomNormalizerBenchmark(),
                 new SymfonyObjectNormalizerBenchmark(),
                 new SymfonyGetSetNormalizerBenchmark(),
                 new JmsBenchmark(),
