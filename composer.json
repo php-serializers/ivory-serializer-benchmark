@@ -14,7 +14,8 @@
     "phpbench/phpbench": "^0.14.0",
     "tsantos/serializer": "dev-jms-metadata-v2",
     "ocramius/package-versions": "^1.3",
-    "better-serializer/better-serializer": "^0.1"
+    "better-serializer/better-serializer": "^0.1",
+    "tebru/gson-php": "dev-master"
   },
   "authors": [
     {
