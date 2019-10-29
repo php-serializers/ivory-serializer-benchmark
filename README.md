@@ -91,6 +91,7 @@ Available implementations:
 * `SymfonyGetSetNormalizer`
 * `SymfonyObjectNormalizer`
 * `TSantos`
+* `Gson`
 
 
 ## Contribute
